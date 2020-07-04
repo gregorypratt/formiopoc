@@ -1,0 +1,24 @@
+{
+  "name": "rental-forms",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Rental Forms PoC",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "prettier": "prettier --write './**/*'"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.12.2",
+    "@stencil/router": "^1.0.1",
+    "prettier": "^2.0.5"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "formiojs": "^4.10.4"
+  }
+}
